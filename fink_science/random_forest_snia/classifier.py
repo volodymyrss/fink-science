@@ -109,7 +109,7 @@ def fit_all_bands(
         Array of feature vectors (all bands for each alert)
     """
     features = []
-    unique_bands = [1, 2, 3]
+    unique_bands = [1, 2]
     # Loop over all alerts
     zz = zip(jd, fid, magpsf, sigmapsf, magnr, sigmagnr, magzpsci, isdiffpos)
     for alert_data in zz:
