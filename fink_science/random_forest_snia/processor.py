@@ -25,6 +25,7 @@ from fink_science.random_forest_snia.classifier import load_external_model
 
 from fink_science.tester import spark_unit_tests
 
+
 @pandas_udf(DoubleType(), PandasUDFType.SCALAR)
 def rfscore(
         jd, fid, magpsf, sigmapsf, magnr,
